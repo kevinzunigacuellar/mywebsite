@@ -1,0 +1,25 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+.container .item {
+	background-color: #fff;
+	display: flex;
+	width: 220px;
+}
+
+.container .item:hover {
+	border: #000 solid 1px;
+	cursor: pointer;
+}
+
+.container .item a {
+	padding: 0;
+	margin: 0;
+}
+.container .item img {
+	width: 100%;
+	display: block;
+}

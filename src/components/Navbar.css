@@ -1,0 +1,116 @@
+:root {
+	--mainColor: rgb(69, 179, 224);
+	--secondaryColor: rgb(31, 141, 186);
+	--fontColor: #fcfff7;
+	--borderColor: rgba(105, 105, 105, 1);
+}
+
+.navbar-close {
+	position: fixed;
+	right: 0px;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	min-width: 80px;
+	background-color: #fff;
+	color: #000;
+	padding: 10px 0;
+	transition: 600ms;
+}
+
+.navbar-close:hover {
+	cursor: pointer;
+}
+
+.little-menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	text-align: center;
+	font-weight: 500;
+}
+
+.menu-bars {
+	padding: 8px 0px;
+	font-size: 25px;
+}
+
+.navbar-open {
+	position: fixed;
+	right: 0px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: right;
+	height: 100%;
+	width: 225px;
+	background-color: #fff;
+	padding: 10px 0;
+	z-index: 1;
+}
+.menu-items {
+	width: 250px;
+	padding: 0;
+	list-style: none;
+}
+
+.menu-item li {
+	list-style: none;
+}
+.menu-items a {
+	color: #000;
+	display: block;
+	padding: 10px 15px;
+	border-bottom: 1px solid var(--fontColor);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	border-top: 1px solid rgba(255, 255, 255, 0.05);
+	font-size: 18px;
+}
+
+.menu-items a:hover {
+	padding-left: 25px;
+	transition: 400ms;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+	text-decoration: none;
+}
+
+@media all and (max-width: 500px) {
+	.navbar-open {
+		width: 100vw;
+		background-color: #fff;
+		color: #000;
+		padding: 10px 0;
+		transition: 600ms;
+		z-index: 1;
+	}
+
+	.navbar-close {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 60px;
+		background-color: #fff;
+		color: var(--fontColor);
+		transition: 600ms;
+		align-items: center;
+		justify-content: flex-end;
+		border-bottom: var(--fontColor) solid 1px;
+		z-index: 1;
+	}
+	.menu-bars {
+		padding-top: 10px;
+		padding-right: 15px;
+		color: #000;
+	}
+	.menu-items {
+		width: 100vw;
+	}
+
+	#menu-text {
+		display: none;
+	}
+}
