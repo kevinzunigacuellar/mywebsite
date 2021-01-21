@@ -1,7 +1,7 @@
 .content-about {
 	height: 100%;
 	width: 100%;
-	background-color: black;
+	background-color: #ffffff;
 	margin-right: 80px;
 }
 .title {
@@ -45,32 +45,9 @@
 	border-radius: 50%;
 }
 
-.heading-box {
-	position: relative;
-	height: 100vh;
-}
-
-.heading-text-1 {
-	position: absolute;
-	text-align: center;
-	color: #fff;
-	bottom: 19vh;
-	left: 6vw;
-	font-size: 10vw;
-}
-
-.heading-text-2 {
-	position: absolute;
-	text-align: center;
-	color: #fff;
-	bottom: 13vh;
-	left: 6vw;
-	font-size: 6vw;
-}
-
-@media all and (max-width: 550px) {
+@media all and (max-width: 500px) {
 	.content-about {
-		margin: 0;
-		z-index: -1;
+		margin-top: 60px;
+		margin-right: 0px;
 	}
 }
