@@ -13,16 +13,36 @@ class Home extends Component {
 		return (
 			<div className="content-about">
 				<div className="home-fullscreen">
-					<div className="home-container-1">cher ami.</div>
-					<div className="home-container-2">Welcome</div>
+					<div>
+						<div className="text-title">Welcome</div>
+						<div className="text-subtitle">
+							I am <span id="kevin">Kevin</span> a{" "}
+							<span id="mechanical-engineer">Mechanical Engineer</span>{" "}
+							selft-taught <span id="web-developer">Web developer</span> and{" "}
+							<span id="solucions-architect">Solutions Architect</span>
+						</div>
+					</div>
 				</div>
+
 				<div className="boxes-home">
-					<div className="box-item">1</div>
-					<div className="box-item">2</div>
-					<div className="box-item">3</div>
-					<div className="box-item">4</div>
-					<div className="box-item">5</div>
-					<div className="box-item">6</div>
+					<div className="box-item">
+						<img src="lima.jpg" alt="no-show"></img>
+					</div>
+					<div className="box-item" id="green">
+						<button>About me</button>
+					</div>
+					<div className="box-item" id="yellow">
+						3
+					</div>
+					<div className="box-item" id="blue">
+						4
+					</div>
+					<div className="box-item" id="sky-blue">
+						5
+					</div>
+					<div className="box-item" id="pink">
+						6
+					</div>
 				</div>
 			</div>
 		);
