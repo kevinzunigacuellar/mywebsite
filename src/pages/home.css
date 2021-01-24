@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+/* full screen block */
+.content-home {
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+	margin-right: 80px;
+}
+
 .heading-box {
 	display: flex;
 	height: 100vh;
@@ -38,28 +47,80 @@
 	font-size: 1.25rem;
 	color: #000;
 }
-
+/* Boxes bellow intro */
 .boxes-home {
 	flex-wrap: wrap;
 	display: flex;
 }
 
 .box-item {
-	font-size: 45px;
+	position: relative;
 	width: 50%;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-repeat: no-repeat;
+	background-color: #fff;
+	font-family: "Raleway", sans-serif;
 }
 
 .box-item img {
 	display: block;
 	width: auto;
 	width: 100%;
+}
+
+.img__description {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.72);
+	color: #fff;
+	visibility: hidden;
+	cursor: pointer;
+	opacity: 0;
+	transition: opacity 0.4s, visibility 0.4s;
+}
+
+.box-item:hover .img__description {
+	visibility: visible;
 	opacity: 1;
 }
 
+.img-hover-title {
+	font-size: 2rem;
+	padding-bottom: 20px;
+}
+
+.img-hover-description {
+	text-align: center;
+	font-size: 1rem;
+}
+/* button css  */
+.btn {
+	text-align: center;
+	display: block;
+	padding: 10px 20px;
+	background-color: #0f9d58;
+	border-radius: 10px;
+	cursor: pointer;
+	color: #fff;
+}
+
+.btn:hover {
+	background-color: rgb(15, 146, 83);
+}
+.btn:active {
+	border: rgb(15, 146, 83) solid 0.25px;
+}
+
+/* adjust font size  */
 @media all and (max-width: 550px) {
 	.home-fullscreen span {
 		font-size: 1.25rem;
@@ -78,27 +139,9 @@
 		width: 100%;
 	}
 }
-
-#blue {
-	background-color: #4285f4;
-}
-
-#red {
-	background-color: #db4437;
-}
-
-#yellow {
-	background-color: #f4b400;
-}
-
-#green {
-	background-color: #0f9d58;
-}
-
-#sky-blue {
-	background-color: #00a4ef;
-}
-
-#pink {
-	background-color: #ffc0cb;
+@media all and (max-width: 500px) {
+	.content-home {
+		margin-top: 0px;
+		margin-right: 0px;
+	}
 }

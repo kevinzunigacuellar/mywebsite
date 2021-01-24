@@ -1,14 +1,15 @@
-import { FaHome, FaAddressCard } from "react-icons/fa";
-import {
-	BsFillBriefcaseFill,
-	BsAwardFill,
-	BsPieChartFill,
-} from "react-icons/bs";
+import { FaRegAddressCard } from "react-icons/fa";
+import { BsPieChart, BsFileCode } from "react-icons/bs";
 import { ImBooks } from "react-icons/im";
-import { RiQuillPenFill } from "react-icons/ri";
+import { BiCloud, BiAward, BiPen } from "react-icons/bi";
 
+import { BiHomeAlt } from "react-icons/bi";
+import { SiProbot } from "react-icons/si";
 import Home from "../pages/Home";
-import Portfolio from "../pages/Portfolio";
+import WebPortfolio from "../pages/WebPortfolio";
+
+import CloudPortfolio from "../pages/CloudPortfolio";
+import MechanicalPortfolio from "../pages/MechanicalPortfolio";
 import Certifications from "../pages/Certifications";
 import MyBookShelf from "../pages/MyBookShelf";
 import Blog from "../pages/Blog";
@@ -21,49 +22,56 @@ export const MenuData = [
 		name: "home-page",
 		exact: true,
 		path: "/",
-		icon: <FaHome />,
+		icon: <BiHomeAlt />,
 		component: Home,
-	},
-	{
-		title: "Portfolio",
-		name: "porfolio-page",
-		path: "/portfolio",
-		icon: <BsFillBriefcaseFill />,
-		component: Portfolio,
 	},
 	{
 		title: "About",
 		name: "about-page",
 		path: "/about",
-		icon: <FaAddressCard />,
+		icon: <FaRegAddressCard />,
 		component: About,
 	},
 	{
-		title: "Book Shelf",
-		name: "book-page",
-		path: "/mybookshelf",
-		icon: <ImBooks />,
-		component: MyBookShelf,
+		title: "Web Portfolio",
+		name: "web-porfolio-page",
+		path: "/web-portfolio",
+		icon: <BsFileCode />,
+		component: WebPortfolio,
+	},
+	{
+		title: "Mech Portfolio",
+		name: "mech-portfolio",
+		path: "/mechanical-portfolio",
+		icon: <SiProbot />,
+		component: MechanicalPortfolio,
+	},
+	{
+		title: "Cloud Portfolio",
+		name: "cloud-porfolio-page",
+		path: "/cloud-portfolio",
+		icon: <BiCloud />,
+		component: CloudPortfolio,
 	},
 	{
 		title: "Certifications",
 		name: "cert-page",
 		path: "/certifications",
-		icon: <BsAwardFill />,
+		icon: <BiAward />,
 		component: Certifications,
 	},
 	{
 		title: "Blog",
 		name: "blog-page",
 		path: "/blog",
-		icon: <RiQuillPenFill />,
+		icon: <BiPen />,
 		component: Blog,
 	},
 	{
 		title: "Investments",
 		name: "invest-page",
 		path: "/investments",
-		icon: <BsPieChartFill />,
+		icon: <BsPieChart />,
 		component: Investments,
 	},
 ];
