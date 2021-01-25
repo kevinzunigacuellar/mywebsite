@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral+SC:wght@300&display=swap");
+
+.content-webporfolio {
+	height: 100%;
+	width: 100%;
+	margin-right: 80px;
+	font-family: "Raleway", sans-serif;
+	background-color: #0f9d58;
+	padding-bottom: 10px;
+}
+
+.webportfolio-heading-box {
+	display: flex;
+	height: 300px;
+	align-items: center;
+	justify-content: center;
+	font-size: 5rem;
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+}
+.mac-navbar {
+	display: flex;
+	align-self: start;
+}
+
+.mac-navbar ul {
+	margin-bottom: 6px;
+}
+.mac-circle {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+#red {
+	background-color: #fe5552;
+}
+
+#yellow {
+	background-color: #ffbd4b;
+}
+
+#green {
+	background-color: #00cb56;
+}
+
+.portfolio-card {
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px 15px;
+}
+
+.portfolio-card .item-1 {
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #f6f6f6;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+.portfolio-card .item-1 img {
+	display: block;
+	width: 100%;
+}
+.portfolio-card .item-2 {
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.portfolio-card .item-2 .title {
+	font-size: 1.75rem;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.portfolio-card .item-2 .description {
+	font-size: 1rem;
+	text-align: center;
+	padding: 10px 20px;
+}
+
+.portfolio-card .item-2 ul li {
+	font-size: 1rem;
+	list-style-type: none;
+	text-align: left;
+}
+@media all and (max-width: 800px) {
+	.webportfolio-heading-box {
+		font-size: 3rem;
+	}
+	.portfolio-card .item-1 {
+		width: 100%;
+	}
+	.portfolio-card .item-2 {
+		width: 100%;
+	}
+}
+@media all and (max-width: 500px) {
+	.content-webporfolio {
+		margin-top: 0px;
+		margin-right: 0px;
+	}
+}

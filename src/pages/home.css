@@ -39,6 +39,7 @@
 }
 .text-title {
 	font-size: 6.25rem;
+	font-family: "Times New Roman", Serif;
 	color: #fff;
 }
 
@@ -66,7 +67,6 @@
 
 .box-item img {
 	display: block;
-	width: auto;
 	width: 100%;
 }
 
@@ -102,31 +102,14 @@
 	text-align: center;
 	font-size: 1rem;
 }
-/* button css  */
-.btn {
-	text-align: center;
-	display: block;
-	padding: 10px 20px;
-	background-color: #0f9d58;
-	border-radius: 10px;
-	cursor: pointer;
-	color: #fff;
-}
-
-.btn:hover {
-	background-color: rgb(15, 146, 83);
-}
-.btn:active {
-	border: rgb(15, 146, 83) solid 0.25px;
-}
 
 /* adjust font size  */
-@media all and (max-width: 550px) {
+@media all and (max-width: 650px) {
 	.home-fullscreen span {
 		font-size: 1.25rem;
 	}
 	.text-title {
-		font-size: 5rem;
+		font-size: 3.75rem;
 	}
 
 	.text-subtitle {

@@ -1,12 +1,5 @@
-:root {
-	--mainColor: rgb(69, 179, 224);
-	--secondaryColor: rgb(31, 141, 186);
-	--fontColor: #fcfff7;
-	--borderColor: rgba(105, 105, 105, 1);
-}
-
 .navbar-close {
-	font-family: "Raleway", sans-serif;
+	font-family: "Quicksand", sans-serif;
 	position: fixed;
 	right: 0px;
 	display: flex;
@@ -37,7 +30,7 @@
 }
 
 .navbar-open {
-	font-family: "Raleway", sans-serif;
+	font-family: "Quicksand", sans-serif;
 	position: fixed;
 	right: 0px;
 	display: flex;
@@ -71,13 +64,8 @@
 .menu-items a:hover {
 	padding-left: 25px;
 	transition: 400ms;
-}
-
-a:hover,
-a:visited,
-a:link,
-a:active {
 	text-decoration: none;
+	color: #000;
 }
 
 @media all and (max-width: 500px) {
