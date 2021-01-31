@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap");
 
-.pop-body {
-	font-family: "Quicksand", sans-serif;
-}
-
 .hotel-logo {
-	max-width: 400px;
+	max-width: 300px;
 	display: block;
 }
 

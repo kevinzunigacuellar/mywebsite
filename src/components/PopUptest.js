@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import "./popup.css";
 
-export default function PopUp() {
+export default function PopUp(props) {
 	const [show, setShow] = useState(false);
 
 	const handleClose = () => setShow(false);
@@ -12,7 +12,7 @@ export default function PopUp() {
 	return (
 		<>
 			<Button variant="primary" onClick={handleShow}>
-				More details
+				{props.info.button.text}
 			</Button>
 
 			<Modal size="lg" centered show={show} onHide={handleClose}>

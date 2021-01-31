@@ -19,13 +19,12 @@
 .little-menu {
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
 	text-align: center;
 	font-weight: 500;
+	margin-right: 1px;
 }
 
 .menu-bars {
-	padding: 8px 0px;
 	font-size: 25px;
 }
 
@@ -77,7 +76,9 @@
 		transition: 600ms;
 		z-index: 1;
 	}
-
+	.little-menu {
+		margin-right: 15px;
+	}
 	.navbar-close {
 		position: fixed;
 		top: 0;
@@ -92,8 +93,6 @@
 		z-index: 1;
 	}
 	.menu-bars {
-		padding-top: 10px;
-		padding-right: 15px;
 		color: #000;
 	}
 	.menu-items {
