@@ -78,7 +78,7 @@ export const webporfoliodata = [
 					"Python",
 				],
 				body:
-					"This serverless web app was writen in Javascript using libraries such as React, react-router-dom, axios, react-icons and react-bootstrap. The database in hosted in AWS DynamoDB, Lambda and API Gateway which feeds data to the website. The lambda functions were written in Node.js and Python",
+					"This serverless web app was writen in Javascript using libraries such as React, react-router-dom, axios, react-icons and react-bootstrap. The web app in hosted in AWS using DynamoDB, Lambda and API Gateway. The lambda functions were written in Node.js and Python",
 				website: "https://kevinzunigacuellar.com",
 				github: "https://github.com/kevinzunigacuellar",
 				takeaway:

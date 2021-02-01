@@ -82,7 +82,9 @@
 .portfolio-card .item-2 .title {
 	font-size: 1.75rem;
 	font-weight: bold;
-	margin: 15px 0px;
+	margin: 20px 0px;
+	font-family: "Sofia", cursive;
+	font-weight: 800;
 }
 
 .portfolio-card .item-2 .description {

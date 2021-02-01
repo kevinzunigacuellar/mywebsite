@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 .content-certifications {
 	height: 100%;
 	width: 100%;
@@ -10,15 +11,17 @@
 	align-items: center;
 	justify-content: center;
 	font-size: 4rem;
-	font-family: "Raleway", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	text-align: center;
+	font-weight: 700;
 }
 
 .content-certifications .subtitle {
 	padding: 25px 10px;
-	font-family: "Raleway", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-size: 2rem;
-	color: grey;
+	color: #000;
+	font-weight: 500;
 }
 
 .content-certifications .cert-container {
@@ -33,7 +36,7 @@
 }
 
 .content-certifications .cert-container .item:hover {
-	border: grey solid 1px;
+	border: #000 solid 1px;
 }
 
 .content-certifications .container img {
