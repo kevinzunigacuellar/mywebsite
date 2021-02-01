@@ -6,7 +6,7 @@
 	justify-content: center;
 	height: 100%;
 	min-width: 80px;
-	background-color: #fff;
+	background-color: #f6f6f6;
 	color: #000;
 	padding: 10px 0;
 	transition: 600ms;
@@ -37,7 +37,7 @@
 	justify-content: right;
 	height: 100%;
 	width: 225px;
-	background-color: #fff;
+	background-color: #f6f6f6;
 	padding: 10px 0;
 	z-index: 1;
 }
@@ -70,7 +70,7 @@
 @media all and (max-width: 500px) {
 	.navbar-open {
 		width: 100vw;
-		background-color: #fff;
+		background-color: #f6f6f6;
 		color: #000;
 		padding: 10px 0;
 		transition: 600ms;
@@ -84,7 +84,7 @@
 		top: 0;
 		left: 0;
 		height: 60px;
-		background-color: #fff;
+		background-color: #f6f6f6;
 		color: var(--fontColor);
 		transition: 600ms;
 		align-items: center;

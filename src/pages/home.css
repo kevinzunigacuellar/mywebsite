@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
 
 /* full screen block */
 .content-home {
@@ -39,13 +41,13 @@
 }
 .text-title {
 	font-size: 6.25rem;
-	font-family: "Times New Roman", Serif;
+	font-family: "Satisfy", cursive;
 	color: #fff;
 }
 
 .text-subtitle {
-	font-family: "Hachi Maru Pop", cursive;
-	font-size: 1.25rem;
+	font-family: "Sofia", cursive;
+	font-size: 1.5rem;
 	color: #000;
 }
 /* Boxes bellow intro */
@@ -62,7 +64,7 @@
 	justify-content: center;
 	align-items: center;
 	background-color: #fff;
-	font-family: "Raleway", sans-serif;
+	font-family: "Sofia", cursive;
 }
 
 .box-item img {
@@ -89,6 +91,7 @@
 }
 
 .box-item:hover .img__description {
+	font-family: "Sofia", cursive;
 	visibility: visible;
 	opacity: 1;
 }
@@ -113,7 +116,7 @@
 	}
 
 	.text-subtitle {
-		font-size: 0.75rem;
+		font-size: 1rem;
 	}
 }
 

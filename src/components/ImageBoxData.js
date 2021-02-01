@@ -2,19 +2,19 @@ export const ImageBoxData = [
 	{
 		img: "code.png",
 		alt: "web-portfolio",
-		path: "/web-portfolio",
+		path: "/webportfolio",
 		title: "Web Portfolio",
 	},
 	{
 		img: "mechanical.png",
 		alt: "mechanical-portfolio",
-		path: "/mechanical-portfolio",
+		path: "/mechanicalportfolio",
 		title: "Mechanical Portfolio",
 	},
 	{
 		img: "cloud-portfolio.png",
 		alt: "about-me-image",
-		path: "/cloud-portfolio",
+		path: "/cloudportfolio",
 		title: "Cloud Porftolio",
 	},
 	{

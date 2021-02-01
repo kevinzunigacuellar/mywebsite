@@ -1,13 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap");
 
-.hotel-logo {
-	max-width: 300px;
-	display: block;
-}
-
-.logo-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding-top: 15px;
+.subtitles {
+	font-weight: 600;
+	font-size: 20px;
 }

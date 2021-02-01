@@ -76,6 +76,7 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	margin-bottom: 20px;
 }
 
 .portfolio-card .item-2 .title {
@@ -96,6 +97,15 @@
 	font-size: 1rem;
 	list-style-type: none;
 	text-align: left;
+	margin: 5px;
+}
+
+#order-1 {
+	order: 1;
+}
+
+#order-2 {
+	order: 2;
 }
 @media all and (max-width: 800px) {
 	.webportfolio-heading-box {
@@ -112,5 +122,12 @@
 	.content-webporfolio {
 		margin-top: 0px;
 		margin-right: 0px;
+	}
+
+	.portfolio-card .item-1 {
+		order: 1;
+	}
+	.portfolio-card .item-2 {
+		order: 2;
 	}
 }
