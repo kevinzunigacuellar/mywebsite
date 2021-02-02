@@ -1,8 +1,17 @@
 .about-heading {
 	padding: 10px 15px;
-	font-size: 60px;
-	color: #000;
-	font-family: "Sofia", cursive;
+	font-size: 50px;
+	color: #fff;
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	background-color: #f4b400;
+}
+
+.about-subheading {
+	padding: 5px 10px;
+	font-size: 30px;
+	color: #f4b400;
+	font-family: "Raleway", sans-serif;
 	font-weight: 800;
 }
 
@@ -17,6 +26,8 @@
 	align-items: center;
 	justify-content: center;
 	width: 100%;
+	padding: 20px 0;
+	background-color: #fff;
 }
 
 .content-about .about-card .item {
@@ -30,25 +41,77 @@
 	display: flex;
 	flex-direction: column;
 	font-family: "Raleway", sans-serif;
-	padding: 0 20%;
+	padding: 0 10%;
 }
 .content-about .about-card .item .item2-content .name-heading {
-	font-size: 35px;
+	font-size: 30px;
 	font-weight: 700;
+	margin: 20px 0;
 }
 
 .content-about .about-card .item .item2-content .item-description {
 	font-weight: 400;
 	text-align: justify;
+	padding-bottom: 20px;
 }
 .content-about .about-card .item img {
 	display: block;
 	width: 100%;
+	max-width: 500px;
+	max-height: 600px;
 }
 
+.education-card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.education-card .education-img {
+	margin-left: 10px;
+}
+
+.education-card .education-img img {
+	display: block;
+	width: 100%;
+}
+
+.education-card .university-description {
+	font-family: "Raleway", sans-serif;
+	padding: 15px 25px;
+	width: 65%;
+}
+
+.inline-flex {
+	display: flex;
+	justify-content: space-between;
+}
+.resume-button {
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.button-1 {
+	margin: 10px;
+}
 @media all and (max-width: 500px) {
 	.content-about {
-		margin-top: 50px;
+		margin-top: 60px;
 		margin-right: 0px;
+	}
+	.education-card .university-description {
+		width: 90%;
+	}
+}
+
+@media all and (max-width: 750px) {
+	.content-about .about-card .item {
+		width: 100%;
+	}
+	.inline-flex {
+		justify-content: start;
+		flex-direction: column;
 	}
 }
