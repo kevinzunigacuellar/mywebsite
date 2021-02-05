@@ -55,7 +55,11 @@ export default class About extends Component {
 					>
 						Resume API
 					</Button>
-					<Button className="button-1" variant="danger">
+					<Button
+						className="button-1"
+						variant="danger"
+						href="https://s3.amazonaws.com/kevinzunigacuellar.com/resume.pdf"
+					>
 						Download PDF
 					</Button>
 				</div>
