@@ -6,22 +6,20 @@
 	margin-right: 80px;
 }
 .certifications-heading-box {
-	display: flex;
-	height: 150px;
-	align-items: center;
-	justify-content: center;
-	font-size: 4rem;
-	font-family: "Open Sans", sans-serif;
+	padding: 15px 15px;
+	font-size: 3rem;
+	color: #fff;
+	font-family: "Raleway", sans-serif;
 	text-align: center;
-	font-weight: 700;
+	background-color: #f4b400;
 }
 
 .content-certifications .subtitle {
-	padding: 25px 10px;
-	font-family: "Open Sans", sans-serif;
-	font-size: 2rem;
-	color: #000;
-	font-weight: 500;
+	padding: 15px;
+	font-size: 30px;
+	color: #f4b400;
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
 }
 
 .content-certifications .cert-container {
@@ -35,10 +33,6 @@
 	margin: 20px;
 }
 
-.content-certifications .cert-container .item:hover {
-	border: #000 solid 1px;
-}
-
 .content-certifications .container img {
 	width: 100%;
 	display: block;
@@ -46,11 +40,11 @@
 
 @media all and (max-width: 500px) {
 	.content-certifications {
-		margin-top: 40px;
+		margin-top: 60px;
 		margin-right: 0px;
 	}
 	.certifications-heading-box {
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 }
 

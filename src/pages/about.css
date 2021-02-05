@@ -1,14 +1,14 @@
 .about-heading {
-	padding: 10px 15px;
-	font-size: 50px;
+	padding: 15px 15px;
+	font-size: 3rem;
 	color: #fff;
 	font-family: "Raleway", sans-serif;
-	font-weight: 800;
+	text-align: center;
 	background-color: #f4b400;
 }
 
 .about-subheading {
-	padding: 5px 10px;
+	padding: 15px;
 	font-size: 30px;
 	color: #f4b400;
 	font-family: "Raleway", sans-serif;
@@ -19,15 +19,21 @@
 	width: 100%;
 	margin-right: 80px;
 }
-
+.card-cointainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
 .content-about .about-card {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	padding: 20px 0;
+	padding-top: 15px;
 	background-color: #fff;
+	max-width: 1400px;
 }
 
 .content-about .about-card .item {
@@ -37,12 +43,14 @@
 	justify-content: center;
 	align-items: center;
 }
+
 .content-about .about-card .item .item2-content {
 	display: flex;
 	flex-direction: column;
 	font-family: "Raleway", sans-serif;
 	padding: 0 10%;
 }
+
 .content-about .about-card .item .item2-content .name-heading {
 	font-size: 30px;
 	font-weight: 700;
@@ -56,9 +64,7 @@
 }
 .content-about .about-card .item img {
 	display: block;
-	width: 100%;
-	max-width: 500px;
-	max-height: 600px;
+	width: 80%;
 }
 
 .education-card {
@@ -95,6 +101,7 @@
 }
 .button-1 {
 	margin: 10px;
+	font-family: "Raleway", sans-serif;
 }
 @media all and (max-width: 500px) {
 	.content-about {

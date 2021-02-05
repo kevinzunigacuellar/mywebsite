@@ -18,8 +18,8 @@ export default class About extends Component {
 						<div className="name-heading">Kevin D. Zuñiga Cuellar</div>
 						<div className="item-description">
 							Hello! Welcome to my about page. Here you will find more about my
-							background. Feel free to download my resume or check out the API
-							in JSON format. Enjoy!
+							background. Feel free to download my resume or check out my resume
+							API in JSON format. Enjoy!
 						</div>
 					</div>
 				</div>
@@ -45,7 +45,7 @@ export default class About extends Component {
 		return (
 			<div className="content-about">
 				<div className="about-heading">About me</div>
-				{introcard}
+				<div className="card-cointainer">{introcard}</div>
 				<div className="about-subheading">Resume</div>
 				<div className="resume-button">
 					<Button

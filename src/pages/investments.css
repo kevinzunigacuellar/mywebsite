@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+.content-investments {
+	height: 100%;
+	width: 100%;
+	margin-right: 80px;
+}
+.investments-heading-box {
+	padding: 15px 15px;
+	font-size: 3rem;
+	color: #fff;
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+	background-color: #f4b400;
+}
+.item-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.content-investments .invest-card {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	text-align: justify;
+	width: 100%;
+	max-width: 1200px;
+	padding-top: 15px;
+	background-color: #fff;
+}
+.content-investments .invest-card .item {
+	width: 50%;
+	padding: 0 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Raleway", sans-serif;
+}
+
+@media all and (max-width: 500px) {
+	.content-investments {
+		margin-top: 60px;
+		margin-right: 0px;
+	}
+	.investments-heading-box {
+		font-size: 2rem;
+	}
+	.content-investments .invest-card .item {
+		width: 100%;
+	}
+}

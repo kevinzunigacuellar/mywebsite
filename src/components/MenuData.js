@@ -39,13 +39,13 @@ export const MenuData = [
 		icon: <BsFileCode />,
 		component: WebPortfolio,
 	},
-	{
+	/* {
 		title: "Mech Portfolio",
 		name: "mech-portfolio",
 		path: "/mechanicalportfolio",
 		icon: <SiProbot />,
 		component: MechanicalPortfolio,
-	},
+	}, */
 	{
 		title: "Cloud Portfolio",
 		name: "cloud-porfolio-page",
@@ -60,13 +60,13 @@ export const MenuData = [
 		icon: <BiAward />,
 		component: Certifications,
 	},
-	{
+	/* {
 		title: "Blog",
 		name: "blog-page",
 		path: "/blog",
 		icon: <BiPen />,
 		component: Blog,
-	},
+	}, */
 	{
 		title: "Investments",
 		name: "invest-page",
