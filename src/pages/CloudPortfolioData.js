@@ -10,7 +10,7 @@ export const CloudPortfolioData = [
 	{
 		img: "myweb-cloud.png",
 		alt: "myweb-cloud-arch",
-		title: "My Webiste",
+		title: "My Webiste Architecture",
 		subtitle: "Serverless Web Application",
 		description:
 			"For my website, I required a highly available, low latency, cost effective and low management backend to respond to API calls made by my visitors. AWS API Gateway, Lambda and DynamoDB provides a serverless backend managed by AWS while S3 and Cloudfront provides a highly available and low latency frontend. All static files are stored in AWS s3 which are distributed by Cloundfront to edge locations around the world. When a user makes a HTTP request to Route 53, it is automatically redirected to HTTPS and all the requested static files are encripted sent from an edge location decreasing the website loading time. Any Javascript executed in the browser sends and receives data from a public backend API using Lambda and API gateway. DynamobDB provides a persistence layer where data can be stored by the API's Lambda function.",
