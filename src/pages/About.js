@@ -50,7 +50,7 @@ export default class About extends Component {
 				<div className="resume-button">
 					<Button
 						className="button-1"
-						href="https://api.kevinzunigacuellar.com/resume-json"
+						href="https://api.kevinzunigacuellar.com/resume"
 						target="_blank"
 					>
 						Resume API
